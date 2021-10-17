@@ -1,6 +1,6 @@
-importRetrosheetData <- function(filePath)
+importRetrosheetPBPData <- function(filePath)
 {
-  #reads in data with the default statistical output from retrosheet's bevent DOS tool
+  #reads in data with the default output from retrosheet's bevent DOS tool
   
   #read in the file
   df = read.csv(filePath, header = FALSE)
